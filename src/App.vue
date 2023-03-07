@@ -1,11 +1,8 @@
-<script setup lang="ts">
-  import { RouterLink, RouterView } from 'vue-router'
-  import BaseIcon from '@/components/base/icon/BaseIcon.vue'
-</script>
-
 <template>
-  <base-icon name="icon-btc" size="36" />
+  <router-view />
 </template>
+
+<script setup lang="ts"></script>
 
 <style scoped lang="scss">
   header {
